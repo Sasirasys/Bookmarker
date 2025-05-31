@@ -34,14 +34,10 @@ export default function rateBook({
       // calculate new avg_rating
       const len = bookDoc.rating_list.length;
       const new_len = result_book == null ? len + 1 : len;
-      //TEST
-      const rtest = [
-        { user_id: "1", rating: 5 },
-        { user_id: "2", rating: 3 },
-        { user_id: "1", rating: 1 },
-      ];
+
       const sum = bookDoc.rating_list.reduce(
-        (sum: number, item: Rating) => sum + item.rating
+        (sum: number, item: Rating) => sum + item.rating,
+        0
       );
       const new_avg_rating =
         (sum + rating - (result_book == null ? 0 : result_book.rating)) /
