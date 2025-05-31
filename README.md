@@ -1,7 +1,7 @@
 # Bookmarker
 
 > [!NOTE]
-> Visit the live website [here](https://bookmarker-amber.vercel.app/).
+> Visit the live website [here](https://bookmarker-ruby-ten.vercel.app/).
 
 ## Project Information
 **Bookmarker** is an app that lets you log your reading sessions, or "Bookmarks", and track your progress on each book. The purpose of this app is to promote reading by letting users see their reading progress and discover new books. There are 6 pages in total.
